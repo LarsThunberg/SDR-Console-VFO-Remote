@@ -1,0 +1,4 @@
+meta.name: SDR Console VFO Remote
+meta.author: Lars Thunberg SM0TGU
+meta.description: Control the RX and satellite TX VFO in SDR Console
+meta.tags.category: input

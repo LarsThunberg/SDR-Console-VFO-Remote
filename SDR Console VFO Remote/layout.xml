@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layout onLaunch="launch" color="#2EB0EB">
+	<row>
+		<button text="RX VFO / Satellite TX VFO" ontap="Space" />
+	</row>
+	<row weight="5">
+		<touch id="touch" image = "knob.png" ontouchend="done" ontouchabs="abs" ontouchsize="size" />
+	</row>
+	<row>
+		<button text="Freq x1" onTap="VFOx1" />
+		<button text="Freq x2" onTap="VFOx2" />     
+		<button text="Freq x3" onTap="VFOx3" />
+	</row>
+	<row>
+      <button icon="left" onTap="left" />
+      <button icon="up" onTap="up" />     
+      <button icon="down" onTap="down" />
+      <button icon="right" onTap="right" />
+    </row>
+</layout>
