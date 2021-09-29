@@ -2,7 +2,9 @@
 Control VFO in SDR Console with Autohotkey and Unified Remote
 
 # Desciption
-ToDo
+In [SDR Console v3](https://www.sdr-radio.com/) it is possible to control an external radio for transmitting (TX) in the satellite mode - this is called External Radio control. To change frequency you can click on the digits in the control window or change with the arrow keys, but it is not possible to use any other shortcut keys or VFO knobs.
+
+This solutions adds a [AutoHotKey](https://www.autohotkey.com/) script for remapping and controlling both RX and TX VFO and a software remote VFO with the help of [Unified Remote](https://www.unifiedremote.com/) software. You can use these independent - but best is together. If you only use the AutoHotKey script then you can toggle between the RX VFO and External Radio TX VFO and control with the arrow keys. If you only use the Unified Remote you can control the RX VFO but not switch to the External Radio TX VFO. See more in How to use below.
 
 # Installation and setup
 
