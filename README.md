@@ -16,7 +16,7 @@ This solutions adds a [AutoHotKey](https://www.autohotkey.com/) script for remap
 
 ## Install and setup Unified Remote server and the app remote
 1. Download and install [Unified Remote](https://www.unifiedremote.com/)
-2. Check that the Unified Server is running. Please see the help files and wiki at the Unified webpage for all info about the software.
+2. Check that the Unified Server is running. Please see the help files and wiki at the Unified webpage for all info about the software. In some cases you need to change the service to run as administrator.
 3. Copy the folder `SDR Console VFO Remote` to `C:\ProgramData\Unified Remote\Remotes\Custom`
 4. Start the Unified Server Manager. Go to "Settings -> Remotes". Change the Local Path to `C:\ProgramData\Unified Remote\Remotes\` to be able to load the added remote.
 5. Restart the server to load the added remote.
