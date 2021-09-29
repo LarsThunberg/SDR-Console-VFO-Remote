@@ -7,15 +7,20 @@ In [SDR Console v3](https://www.sdr-radio.com/) it is possible to control an ext
 This solutions adds a [AutoHotKey](https://www.autohotkey.com/) script for remapping and controlling both RX and TX VFO and a software remote VFO with the help of [Unified Remote](https://www.unifiedremote.com/) software. You can use these independent - but best is together. If you only use the AutoHotKey script then you can toggle between the RX VFO and External Radio TX VFO and control with the arrow keys. If you only use the Unified Remote you can control the RX VFO but not switch to the External Radio TX VFO. See more in How to use below.
 
 # Installation and setup
+**Note!** Instructions are for Windows and Android but can be used for other platforms if changing the folder path.
 ## Install and setup AutoHotKey script
-1.
-2.
-3.
+1. Download and install [AutoHotKey](https://www.autohotkey.com/)
+2. Copy the script `SDRConsoleVFOControl.ahk` to a folder of your choice.
+3. Edit the two lines with `IfWinActive, Airspy Mini :: SDR Console v3.1`. Replace the name "Airspy Mini :: SDR Console v3.1" if you are using another SDR. The window name has to be exact - if not the script will not find correct window.
+4. In some cases you need to start the script with Windows Admin righs (right click on the script and choose "Run as administrator").
 
 ## Install and setup Unified Remote server and the app remote
-1.
-2.
-3.
+1. Download and install [Unified Remote](https://www.unifiedremote.com/)
+2. Check that the Unified Server is running. Please see the help files and wiki at the Unified webpage for all info about the software.
+3. Copy the folder `SDR Console VFO Remote` to `C:\ProgramData\Unified Remote\Remotes\Custom`
+4. Start the Unified Server Manager. Go to "Settings -> Remotes". Change the Local Path to `C:\ProgramData\Unified Remote\Remotes\` to be able to load the added remote.
+5. Restart the server to load the added remote.
+6. ToDo  describe app installation
 
 
 
